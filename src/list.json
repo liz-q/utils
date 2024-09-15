@@ -1,0 +1,38 @@
+{
+  "class": {
+    "BaseList": "./class/base-list",
+    "EventBus": "./class/event-bus",
+    "LoopSearch": "./class/loop-search",
+    "TreeData": "./class/tree-data",
+    "VirtualPagination": "./class/virtual-pagination"
+  },
+  "date": {
+    "dateFormat": "./date/date-format",
+    "getDuration": "./date/get-duration",
+    "toFixed": "./date/to-fixed"
+  },
+  "operate": {
+    "findTargetVal": "./operate/find-target-val",
+    "formatCapacity": "./operate/format-capacity",
+    "formatMoney": "./operate/format-money",
+    "joinSeparator": "./operate/join-separator",
+    "makeMap": "./operate/make-map",
+    "mapToOptions": "./operate/map-to-options",
+    "phoneMask": "./operate/phone-mask",
+    "splitSeparator": "./operate/split-separator",
+    "storage": "./operate/storage"
+  },
+  "others": {
+    "deleteEmptyProperties": "./others/delete-empty-properties",
+    "deleteNullProperties": "./others/delete-null-properties",
+    "getValueByPath": "./others/get-value-by-path"
+  },
+  "validation": {
+    "isEmail": "./validation/is-email",
+    "isEmpty": "./validation/is-empty",
+    "isNumber": "./validation/is-number"
+  },
+  "vue": {
+    "findVueComponent": "./vue/find-vue-component"
+  }
+}

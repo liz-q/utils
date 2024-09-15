@@ -1,0 +1,31 @@
+{
+  "ignoreDeprecations": "5.0",
+  "compilerOptions": {
+    "target": "es2015",
+    /* Modules */
+    // "module": "esnext",                             /* Specify what module code is generated. */
+    /* Emit */
+    "declaration": true,                              /* 是否自动创建类型声明文件 */
+    "declarationMap": false,                          /* Create sourcemaps for d.ts files. */
+    "outDir": "./lib",                                /* 指定输出目录 */
+    "noEmitOnError": true,                            /* 发送错误时不输出任何文件 */
+    "importHelpers": true,
+    "declarationDir": "./types",                      /* 类型声明文件的输出目录 */
+    /* Interop Constraints */
+    "esModuleInterop": true,                          /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,         /* Ensure that casing is correct in imports. */
+    /* Type Checking */
+    "strict": true,                                   /* Enable all strict type-checking options. */
+    /* Completeness */
+    "skipLibCheck": true,                              /* Skip type checking all .d.ts files. */
+    "moduleResolution": "node",                        /* 模块解析策略，ts默认用node的解析策略，即相对的方式导入 */
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["./config/*"]
+    }
+  },
+  "include": ["src", "config"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
